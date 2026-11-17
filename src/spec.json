@@ -1,0 +1,161 @@
+{
+  "title": "Gestione pratiche dello sportello",
+  "description": "Prototipo navigabile per consultare le pratiche, filtrare per stato e scadenza e registrare nuove richieste con dati inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle pratiche dello sportello e accesso rapido alle scadenze imminenti.",
+      "metrics": [
+        {
+          "label": "Pratiche aperte",
+          "value": "18"
+        },
+        {
+          "label": "In attesa",
+          "value": "6"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "12"
+        },
+        {
+          "label": "In scadenza entro 7 giorni",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Stato",
+        "Scadenza",
+        "Oggetto",
+        "Sportello"
+      ],
+      "rows": [
+        [
+          "In lavorazione",
+          "12/06/2026",
+          "Richiesta tessera servizi",
+          "Sportello Lumo"
+        ],
+        [
+          "In attesa",
+          "14/06/2026",
+          "Aggiornamento recapito",
+          "Sportello Vela"
+        ],
+        [
+          "Da verificare",
+          "16/06/2026",
+          "Permesso temporaneo",
+          "Sportello Nubi"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "elenco-pratiche",
+      "title": "Elenco pratiche",
+      "description": "Tabella filtrabile per stato, sportello e intervallo di scadenza. La ricerca riguarda codice e oggetto.",
+      "metrics": [],
+      "columns": [
+        "Codice pratica",
+        "Oggetto",
+        "Stato",
+        "Data apertura",
+        "Scadenza",
+        "Sportello"
+      ],
+      "rows": [
+        [
+          "PR-2701",
+          "Richiesta tessera servizi",
+          "In lavorazione",
+          "02/06/2026",
+          "12/06/2026",
+          "Sportello Lumo"
+        ],
+        [
+          "PR-2702",
+          "Aggiornamento recapito",
+          "In attesa",
+          "03/06/2026",
+          "14/06/2026",
+          "Sportello Vela"
+        ],
+        [
+          "PR-2703",
+          "Permesso temporaneo",
+          "Da verificare",
+          "04/06/2026",
+          "16/06/2026",
+          "Sportello Nubi"
+        ],
+        [
+          "PR-2704",
+          "Rilascio attestazione",
+          "Completata",
+          "28/05/2026",
+          "09/06/2026",
+          "Sportello Lumo"
+        ],
+        [
+          "PR-2705",
+          "Richiesta accesso archivio",
+          "In lavorazione",
+          "05/06/2026",
+          "18/06/2026",
+          "Sportello Vela"
+        ],
+        [
+          "PR-2706",
+          "Variazione dati pratica",
+          "In attesa",
+          "06/06/2026",
+          "20/06/2026",
+          "Sportello Nubi"
+        ],
+        [
+          "PR-2707",
+          "Richiesta tessera servizi",
+          "In lavorazione",
+          "07/06/2026",
+          "21/06/2026",
+          "Sportello Lumo"
+        ],
+        [
+          "PR-2708",
+          "Rinnovo autorizzazione",
+          "Da verificare",
+          "08/06/2026",
+          "23/06/2026",
+          "Sportello Vela"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-pratica",
+      "title": "Nuova pratica",
+      "description": "Inserimento di una pratica con codice inventato, oggetto, stato iniziale e scadenza.",
+      "metrics": [],
+      "columns": [
+        "Codice pratica",
+        "Oggetto",
+        "Stato",
+        "Data apertura",
+        "Scadenza",
+        "Sportello"
+      ],
+      "rows": [],
+      "form": [
+        "Codice pratica",
+        "Oggetto",
+        "Stato",
+        "Data apertura",
+        "Scadenza",
+        "Sportello"
+      ]
+    }
+  ]
+}
